@@ -61,7 +61,7 @@ function kill_mail(){
 function submition_thanks(){
     Mailer.style.display = "none";
     Thanks.style.display = "block";
-    document.getElementById("thanks-h1").innerHTML = "Thank you for the submition, we are obviously replying in 24 hours.";
+    document.getElementById("thanks-h1").innerHTML = "Thank you for the submition, we are usually replying in 24 hours.";
 
 }
 
