@@ -391,6 +391,7 @@ a:hover{
    outline: none;
 }
 .contact-form .cross{
+    font-family: Arial, Helvetica, sans-serif !important;
     padding: 0;
     height: 65px;
     width: 65px;
