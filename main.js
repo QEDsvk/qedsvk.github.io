@@ -40,7 +40,6 @@ function send_mail(){
             Mailer.style.display = "block";   
             Scroll.style.overflow = "hidden";
             Scroll.style.height = "100%";
-            Scroll.style.width = widthOfbody;
         }
 }
 function kill_mail(){
