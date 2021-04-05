@@ -124,7 +124,7 @@ nav ul li:hover {
     margin-top: 6vh;
     font-size: 150px;
     text-align: center;
-    font-weight: bolder;
+    font-weight: bold;
     color: rgb(2, 119, 187);
 }
 
@@ -132,7 +132,7 @@ nav ul li:hover {
     margin-top: 6vh;
     font-size: 100px;
     text-align: center;
-    font-weight: bolder;
+    font-weight: bold;
     color: rgb(2, 119, 187);
 }
 
@@ -185,7 +185,7 @@ a:hover {
     font-size: 80px;
     font-style: italic;
     text-align: center;
-    font-weight: bolder;
+    font-weight: bold;
     color: rgb(1, 75, 117);
 }
 
