@@ -281,19 +281,12 @@ a:hover {
 
 .sponsor-banner img {
     width: 100%;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
+    filter: grayscale(100%);
 }
 
-.sponsor-banner .foto1 img:last-child {
-    display: none;
-}
-
-.sponsor-banner .foto1:hover img:last-child {
-    display: block;
-}
-
-.sponsor-banner .foto1:hover img:first-child {
-    display: none;
+.sponsor-banner:hover img {
+    filter: none;
 }
 
 .left {
