@@ -1,113 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Team QED</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap">
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="images/logo2.png" width="40px">
-    </head>
-    <body onresize="control()" id="scroll">
-        <div class="navbar">
-            <img src="images/logo.jpg" width="80px">
-            <nav>
-                <ul id="MenuItems"> 
-                    <a href="#home" onclick="kill()"><li>Home</li></a>
-                    <a href="#our%robot" onclick="kill()"><li>RCJ Soccer</li></a>
-                    <a href="#our%projects" onclick="kill()"><li>Projects</li></a>
-                    <a href="#sponsors" onclick="kill()"><li>Sponsors</li></a>
-                    <a href="#about%us" onclick="kill()"><li>About Us</li></a>
-                    <a onclick="kill()&send_mail()"><li>Contact</li></a>
-                </ul>
-            </nav>
-            <p class="menu-icon" onclick="menutoggle()">&#9776;</p>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team QED</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo2.png" width="40px">
+</head>
+
+<body onresize="control()" id="scroll">
+    <div class="navbar">
+        <img src="images/logo.jpg" width="80px">
+        <nav>
+            <ul id="MenuItems">
+                <a href="#home" onclick="kill()">
+                    <li>Home</li>
+                </a>
+                <a href="#our%robot" onclick="kill()">
+                    <li>RCJ Soccer</li>
+                </a>
+                <a href="#our%projects" onclick="kill()">
+                    <li>Projects</li>
+                </a>
+                <a href="#sponsors" onclick="kill()">
+                    <li>Sponsors</li>
+                </a>
+                <a href="#about%us" onclick="kill()">
+                    <li>About Us</li>
+                </a>
+                <a onclick="kill()&send_mail()">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </nav>
+        <p class="menu-icon" onclick="menutoggle()">&#9776;</p>
+    </div>
+    <div id="home" class="inner-content">
+        <div class="main main-uvod">
+            <h1><span>W</span><span>e</span><span>l</span><span>c</span><span>o</span><span>m</span><span>e</span><span>!</span>
+            </h1>
+            <h2 data-text="to our website"> to our website </h2>
+            <p>QED is quick elimination drive team, competing in RoboCup Junior Soccer open legue, the original team
+                ceased to exist due to
+                internal problems, but one member is still there with his new team. </p>
+            <a href="#our%robot" class="btn">Learn more...</a>
         </div>
-        <div id="home" class="inner-content">
-            <div  class="main main-uvod">
-                <h1><span>W</span><span>e</span><span>l</span><span>c</span><span>o</span><span>m</span><span>e</span><span>!</span></h1>
-                <h2 data-text="to our website"> to our website </h2>
-                <p>QED is quick elimination drive team, competing in RoboCup Junior Soccer open legue, the original team ceased to exist due to
-                    internal problems, but one member is still there with his new team. </p>
-                    <a href="#our%robot" class="btn">Learn more...</a>
-            </div>
-            <div id="our%robot" class="main main1">
-                <h1>RoboCup Junior Soccer open</h1>
-                <p>Last year on summer electronic camp called <a href="https://www.lstme.sk"><span style="font-weight: bolder;">LSTME</span></a>, five young people have decided
-                to create team for Robocup Soccer open legue, but we didn't have enough money for these project, nowdays money is still 
-            problem, but thanks to our <a href="#sponsors">sponsors</a>, we have created concept and started building robots.</p>
-            
+        <div id="our%robot" class="main main1">
+            <h1>RoboCup Junior Soccer open</h1>
+            <p>Last year on summer electronic camp called <a href="https://www.lstme.sk"><span
+                        style="font-weight: bolder;">LSTME</span></a>, five young people have decided
+                to create team for Robocup Soccer open legue, but we didn't have enough money for these project, nowdays
+                money is still
+                problem, but thanks to our <a href="#sponsors">sponsors</a>, we have created concept and started
+                building robots.</p>
+
             <div>
                 <h2>In this section, you can find documentation of our robot:</h2>
 
 
-               
+
             </div>
+        </div>
+        <div id="our%projects" class="main">
+            <p></p>
+        </div>
+        <div id="sponsors" class="main">
+            <h4>Thanks to our sponsors:</h4>
+            <div class="container-sponsors">
+                <div class="sponsor-banner">
+                    <a href="https://www.openmv.io">
+                        <div class="foto1">
+                            <img src="images/openMVGS.png">
+                            <img src="images/openMV.png">
+                        </div>
+                    </a>
+                </div>
+                <div class="sponsor-banner">
+                    <a href="https://www.soselectronic.com/">
+                        <div class="foto1">
+                            <img src="images/sosskGS.png">
+                            <img src="images/sossk.png">
+                        </div>
+                    </a>
+                </div>
+                <div class="sponsor-banner">
+                    <a href="https://www.pcbway.com">
+                        <div class="foto1">
+                            <img src="images/pcbwayGS.png">
+                            <img src="images/pcbway.png">
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div id="our%projects" class="main">
-                <p></p>
-            </div>
-            <div id="sponsors" class="main">
-                <h4>Thanks to our sponsors:</h4>
-                <div class="container-sponsors">
-                    <div class="sponsor-banner">
-                        <a href="https://www.openmv.io">
-                            <div class="foto1">
-                                <img src="images/openMVGS.png">
-                                <img src="images/openMV.png">
-                            </div>
-                        </a>
-                    </div>                        
-                    <div class="sponsor-banner">
-                        <a href="https://www.soselectronic.com/">
-                            <div class="foto1">
-                                <img src="images/sosskGS.png">
-                                <img src="images/sossk.png">
-                            </div>
-                        </a>
+        </div>
+        <div class="special">
+            <div id="about%us" class="main">
+                <h3>&lt;Who we are?&gt;</h3>
+                <div class="container">
+                    <div class="column4">
+                        <div class="foto1">
+                            <img src="images/person1.png">
+                            <img src="images/mail.png" onclick="send_mail()">
+                        </div>
                     </div>
-                    <div class="sponsor-banner">
-                        <a href="https://www.pcbway.com">
-                            <div class="foto1">
-                                <img src="images/pcbwayGS.png">
-                                <img src="images/pcbway.png">
-                            </div>
-                        </a>
+                    <div class="column4">
+                        <h4 class="left">Eduard<br> Lehocký</h4><br>
+                        <p class="left">Living in Košice, Eduard is middle school student. Currently, he is PCB
+                            designer,
+                            robot programmer and 3D designer. He has done a lot of cool project including <a
+                                href="https://oslfrobot.github.io/">oslfrobot</a>.</p>
+                    </div>
+                    <div class="vl"></div>
+                    <div class="column4">
+                        <h4 class="right"> Peter<br> Borták</h4><br>
+                        <p class="right">Peter is student at <a href="https://www.galeje.sk">Gymnasium Alejová
+                                Košice</a>.
+                            He is web developer, 3D designer and Software developer with a lot of projects like <a
+                                href="https://www.youtube.com/watch?v=wALrhTt1w5M">SBB</a>, <a
+                                href="https://www.youtube.com/watch?v=FWrRHYsrZqU">PiBoT</a>...</p>
+                    </div>
+                    <div class="column4">
+                        <div class="foto1">
+                            <img src="images/person2.png">
+                            <img src="images/mail.png" onclick="send_mail()">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="special">
-                <div id="about%us" class="main">
-                    <h3>&lt;Who we are?&gt;</h3>
-                    <div class="container">
-                        <div class="column4">
-                            <div class="foto1">
-                                <img src="images/person1.png">
-                                <img src="images/mail.png" onclick="send_mail()"> 
-                            </div>
-                        </div>
-                        <div class="column4">
-                            <h4 class="left">Eduard<br> Lehocký</h4><br>
-                            <p class="left">Living in Košice, Eduard is middle school student. Currently, he is PCB designer,
-                                robot programmer and 3D designer. He has done a lot of cool project including <a href="https://oslfrobot.github.io/">oslfrobot</a>.</p>
-                        </div>
-                        <div class="vl"></div>
-                        <div class="column4">
-                            <h4 class="right"> Peter<br> Borták</h4><br>
-                            <p class="right">Peter is student at <a href="https://www.galeje.sk">Gymnasium Alejová Košice</a>.
-                            He is web developer, 3D designer and Software developer with a lot of projects like <a href="https://www.youtube.com/watch?v=wALrhTt1w5M">SBB</a>, <a href="https://www.youtube.com/watch?v=FWrRHYsrZqU">PiBoT</a>...</p>
-                        </div>
-                        <div class="column4">
-                            <div class="foto1">
-                                <img src="images/person2.png">
-                                <img src="images/mail.png" onclick="send_mail()"> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <div id="contact" class="main" style="padding: 0;">               
+            <div id="contact" class="main" style="padding: 0;">
                 <div class="contact-form" id="contact-form">
-                    <form id="my-form"  action="https://formspree.io/f/mvodplnr" method="POST">
+                    <form id="my-form" action="https://formspree.io/f/mvodplnr" method="POST">
                         <h1>Contact Us!</h1>
                         <input id="name" type="text" placeholder=" Your name">
                         <input id="email" type="email" name="_replyto" placeholder=" Your email">
@@ -119,13 +143,15 @@
                     <button class="cross" onclick="kill_mail()">&#10006;</button>
                 </div>
                 <div class="thanker" id="thanks">
-                    <h1 class="thanker-h1" id="thanks-h1">Thank you for the submition, we are usually replying in 24 hours.</h1>
+                    <h1 class="thanker-h1" id="thanks-h1">Thank you for the submition, we are usually replying in 24
+                        hours.</h1>
                     <button class="cross" onclick="kill_mail()">&#10006;</button>
                 </div>
             </div>
         </div>
     </div>
-<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
-<script src="main.js"></script>
-    </body>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
 </html>
